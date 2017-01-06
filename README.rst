@@ -12,8 +12,8 @@ nlring
 
 ``pip install nlring``
 
-| **GitHub:** https://github.com/alexforster/nlring/tree/v1.0.0
-| **PyPI:** https://pypi.python.org/pypi/nlring/1.0.0
+| **GitHub:** https://github.com/alexforster/nlring/tree/v1.0.1
+| **PyPI:** https://pypi.python.org/pypi/nlring/1.0.1
 
 
 Example Code
