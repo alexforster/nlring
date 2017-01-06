@@ -33,8 +33,6 @@ class RingNode(object):
         self.ipv6 = str(api_dict['ipv6'])  # type: str
         self.country = str(api_dict['countrycode'])  # type: str
 
-        self._logger = logging.getLogger('nlring.ring.RingNode')
-
     def __str__(self):
 
         return self.hostname
@@ -64,7 +62,6 @@ class Ring(object):
 
         self._parallelism = parallelism
 
-        self._logger = logging.getLogger('ringutils.ring.Ring')
         self._nodes = []
 
     @property

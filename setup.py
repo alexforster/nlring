@@ -10,7 +10,7 @@ from setuptools import setup
 
 setup(
     name='nlring',
-    version='0.9.0',
+    version='1.0.0',
     author='Alex Forster',
     author_email='alex@alexforster.com',
     maintainer='Alex Forster',
@@ -33,7 +33,7 @@ setup(
         'pyte<0.6.0',
     ],
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: MacOS :: MacOS X',
