@@ -20,11 +20,11 @@ setup(
     license='3-Clause ("New") BSD license',
     download_url='https://pypi.python.org/pypi/nlring',
     packages=['nlring'],
-    package_dir={'nlring': 'nlring'},
+    package_dir={'nlring': './nlring'},
     package_data={'nlring': [
-        './README*',
+        './README',
+        './README.rst',
         './LICENSE',
-        './requirements.txt',
     ]},
     install_requires=[
         'inparallel<1.1.0',
